@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em 1em;
+    background-color: #231F24;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+    .left,
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.logo {
+    width: 2.5em;
+}
+
+.notificacao {
+    width: 2em;
+}
+
+.profile {
+    width: 3em;
+}
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    background-color: #1c1c1c;
+    color: #fff;
+    height: 100vh;
+    padding-top: 20px;
+    overflow-y: auto;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.5);
+    /* Sombra lateral */
+    transition: width 0.3s ease;
+    position: relative;
+}
+
+.sidebar.retracted {
+    width: 70px;
+    /* Largura quando retraída */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #6912ec;
+}
+
+
+.sidebar nav ul li a span {
+    white-space: nowrap;
+}
+
+.sidebar.retracted nav ul li a span {
+    display: none;
+}
+
+.sidebar.retracted nav ul li a {
+    justify-content: center;
+}
+
+#toggleButton {
+    display: flex;
+    background-color: #6912ec2d;
+    border: none;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
