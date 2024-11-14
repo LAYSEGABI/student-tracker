@@ -16,29 +16,206 @@
             <h1>Tracker de Estudos</h1>
         </div>
         <div class="right">
-            <img class="notificacao" src="src/assets/img/icon-notificacao.png" alt="sino icon">
-            <img class="profile" src="src/assets/img/user-circle-solid 1.png" alt="profile foto">
+            <img class="notificacao" src="src/assets/img/bell-solid 1.svg" alt="sino icon">
+            <img class="profile" src="src/assets/img/foto-minha.png" alt="profile foto">
         </div>
 
     </header>
     <main>
         <aside class="sidebar">
             <nav>
-                <ul>
-                    <li><a href="#"><img src="src/assets/img/home-solid 1.svg" alt=""><span>Home</span></a></li>
-                    <li><a href="#"><img src="src/assets/img/icon-insignias.svg" alt=""><span>Insígnias</span></a></li>
-                    <li><a href="#"><img src="src/assets/img/newspaper-regular 1.svg"
-                                alt=""><span>Certificados</span></a></li>
-                    <li><a href="#"><img src="src/assets/img/pager-solid 1.svg" alt=""><span>Projetos</span></a></li>
-                    <li><a href="#"><img src="src/assets/img/check-double-solid 1.svg" alt=""><span>Tarefas
-                                feitas</span></a></li>
-                    <li><a href="#"><img src="src/assets/img/calendar-alt-solid 1.svg" alt=""><span>Eventos</span></a>
-                    </li>
-                </ul>
+              <ul>
+                <li><a href="index.html"><img src="src/assets/img/home-solid 1.svg" alt=""><span>Home</span></a></li>
+                <li><a href="src/pages/insignias/insignias.html"><img src="src/assets/img/icon-insignias.svg" alt=""><span>Insígnias</span></a></li>
+                <li><a href="src/pages/certificates/certificados.html"><img src="src/assets/img/newspaper-regular 1.svg" alt=""><span>Certificados</span></a></li>
+                <li><a href="src/pages/projetos/projetos.html"><img src="src/assets/img/pager-solid 1.svg" alt=""><span>Projetos</span></a></li>
+                <li><a href="src/pages/tarefas/tarefas.html"><img src="src/assets/img/check-double-solid 1.svg" alt=""><span>Tarefas Feitas</span></a></li>
+                <li><a href="src/pages/eventos/eventos.html"><img src="src/assets/img/calendar-alt-solid 1.svg" alt=""><span>Eventos</span></a></li>
+              </ul>
             </nav>
-        </aside>
+          </aside>
+          
 
-        <div class="content">
+        <div class="container">
+
+            <div class="container_left">
+                <div class="proximos_eventos">
+                    <h3>Próximos eventos</h3>
+                    <div class="proximos_eventos_container">
+                        <div class="proximo_evento">
+                            <div class="data">
+                                <h3>12</h3>
+                                <p class="nome">Qua</p>
+                            </div>
+                            <div class="descricao_evento">
+                                <p class="nome_evento">Pits Stop</p>
+                                <p class="horario">18:00 hrs</p>
+                            </div>
+                        </div>
+                        <div class="proximo_evento">
+                            <div class="data">
+                                <h3>12</h3>
+                                <p class="nome">Qua</p>
+                            </div>
+                            <div class="descricao_evento">
+                                <p class="nome_evento">Pits Stop</p>
+                                <p class="horario">18:00 hrs</p>
+                            </div>
+                        </div>
+                        <div class="proximo_evento">
+                            <div class="data">
+                                <h3>12</h3>
+                                <p class="nome">Qua</p>
+                            </div>
+                            <div class="descricao_evento">
+                                <p class="nome_evento">Pits Stop</p>
+                                <p class="horario">18:00 hrs</p>
+                            </div>
+                        </div>
+                        <div class="proximo_evento">
+                            <div class="data">
+                                <h3>12</h3>
+                                <p class="nome">Qua</p>
+                            </div>
+                            <div class="descricao_evento">
+                                <p class="nome_evento">Pits Stop</p>
+                                <p class="horario">18:00 hrs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tracker_semanal">
+                    <h3>Semanal</h3>
+                    <div class="tracker_semanal_container">
+                        <div class="horas_estudo">
+                            <div class="descricao">
+                                <p class="quantidade">3h 17m</p>
+                                <p class="descricao">Horas de estudo</p>
+                            </div>
+                            <img src="src/assets/img/stopwatch-solid 1.svg" alt="">
+                        </div>
+                        <div class="em_andamento">
+                            <div class="descricao">
+                                <p class="quantidade">3</p>
+                                <p class="descricao">Em andamento</p>
+                            </div>
+                            <img src="src/assets/img/thumbtack-solid 1.svg" alt="">
+                        </div>
+                        <div class="projetos">
+                            <div class="descricao">
+                                <p class="quantidade">5</p>
+                                <p class="descricao">Projetos</p>
+                            </div>
+                            <img src="src/assets/img/project-diagram-solid 1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="lista_tarefas">
+                    <h3>Lista de tarefas</h3>
+                    <div class="lista_tarefas_container">
+                        <div class="lista_tarefas_collun">
+                            <div class="barra_superior">
+                                <h3>TO DO</h3>
+                                <img src="src/assets/img/ellipsis-h-solid 1.svg" alt="">
+                            </div>
+                            <div class="to_do_itens">
+                                <div class="to_do_item">
+                                    <p>Projeto de conclusão de curso final</p>
+                                    <div class="tempo">
+                                        <img src="src/assets/img/clock-solid 1.svg" alt="">
+                                        <p class="data">25 de Dez</p>
+                                    </div>
+                                </div>
+                                <div class="to_do_item">
+                                    <p>Modulo JS Rocketseat</p>
+                                    <div class="tempo">
+                                        <img src="src/assets/img/clock-solid 1.svg" alt="">
+                                        <p class="data">13 de Jun</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="barra_inferior">
+                                <a href=""><img src="src/assets/img/plus-solid 1.svg" alt="">
+                                    <p>Adicionar tarefa</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="lista_tarefas_collun">
+                            <div class="barra_superior">
+                                <h3>DOING</h3>
+                                <img src="src/assets/img/ellipsis-h-solid 1.svg" alt="">
+                            </div>
+                            <div class="doing_itens">
+                                <div class="doing_item">
+                                    <p>Projeto de conclusão de curso final</p>
+                                    <div class="tempo">
+                                        <img src="src/assets/img/clock-solid 1.svg" alt="">
+                                        <p class="data">25 de Dez</p>
+                                    </div>
+                                </div>
+                                <div class="doing_item">
+                                    <p>Modulo JS Rocketseat</p>
+                                    <div class="tempo">
+                                        <img src="src/assets/img/clock-solid 1.svg" alt="">
+                                        <p class="data">13 de Jun</p>
+                                    </div>
+                                </div>
+                                <div class="doing_item">
+                                    <p>Modulo JS Rocketseat</p>
+                                    <div class="tempo">
+                                        <img src="src/assets/img/clock-solid 1.svg" alt="">
+                                        <p class="data">13 de Jun</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="barra_inferior">
+                                <a href=""><img src="src/assets/img/plus-solid 1.svg" alt="">
+                                    <p>Adicionar tarefa</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="lista_tarefas_collun">
+                            <div class="barra_superior">
+                                <h3>DOING</h3>
+                                <img src="src/assets/img/ellipsis-h-solid 1.svg" alt="">
+                            </div>
+                            <div class="done_itens">
+                                <div class="done_item">
+                                    <p>Projeto de conclusão de curso final</p>
+                                    <div class="tempo">
+                                        <img src="src/assets/img/clock-solid 1.svg" alt="">
+                                        <p class="data">25 de Dez</p>
+                                    </div>
+                                </div>
+                                <div class="done_item">
+                                    <p>Modulo JS Rocketseat</p>
+                                    <div class="tempo">
+                                        <img src="src/assets/img/clock-solid 1.svg" alt="">
+                                        <p class="data">13 de Jun</p>
+                                    </div>
+                                </div>
+                                <div class="done_item">
+                                    <p>Modulo JS Rocketseat</p>
+                                    <div class="tempo">
+                                        <img src="src/assets/img/clock-solid 1.svg" alt="">
+                                        <p class="data">13 de Jun</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="barra_inferior">
+                                <a href=""><img src="src/assets/img/plus-solid 1.svg" alt="">
+                                    <p>Adicionar tarefa</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container_right">
+
+            </div>
 
         </div>
     </main>

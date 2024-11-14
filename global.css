@@ -15,11 +15,30 @@ body {
     height: 100%;
     color: rgb(255, 255, 255);
     font-family: "Poppins", serif;
-    overflow: hidden;
-    background-color: rgb(44, 34, 48);
+    overflow-x: hidden;
+    background-color: rgb(32, 24, 36);
 }
 
 main {
-    flex: 1;
+    display: flex;
     overflow-y: auto;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #8910c97b;
+    border-radius: 10px;
+}
+
+/* Personaliza o "thumb" (botão) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background: #663d84a3;
+    /* Cor do botão */
+    border-radius: 10px;
+    /* Arredondar os cantos do botão */
 }

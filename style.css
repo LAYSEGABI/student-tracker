@@ -2,9 +2,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .5em 1em;
+    padding: .6em 1em;
     background-color: #231F24;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    z-index: 4;
 
     .left,
     .right {
@@ -40,13 +46,30 @@ h1 {
     width: 200px;
     background-color: #1c1c1c;
     color: #fff;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 20px;
     overflow-y: auto;
     box-shadow: 4px 0 8px rgba(0, 0, 0, 0.5);
-    /* Sombra lateral */
-    transition: width 0.3s ease;
-    position: relative;
+    transition: width .3s ease;
+    position: fixed;
+    /* Fixa o sidebar */
+    top: 60px;
+    /* Fixa no topo */
+    left: 0;
+    overflow-y: auto;
+    z-index: 2;
+    /* Permite rolar o sidebar caso ultrapasse a altura da tela */
+}
+
+/* Efeito hover */
+.sidebar nav ul li a:hover {
+    background-color: #a657ca55;
+}
+
+/* Estilo para o item ativo, simulando o efeito hover */
+.sidebar nav ul li a.ativo {
+    background-color: #a72be0;
+    /* Cor do item ativo, mesma do hover */
 }
 
 .sidebar.retracted {
@@ -85,7 +108,6 @@ nav ul li a:hover {
     background-color: #6912ec;
 }
 
-
 .sidebar nav ul li a span {
     white-space: nowrap;
 }
@@ -107,4 +129,178 @@ nav ul li a:hover {
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    margin: 2.5em;
+    margin-left: 240px;
+    margin-top: 100px;
+    transition: .5s;
+
+}
+
+.container.retracted {
+    margin-left: 100px;
+}
+
+.container_left {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 80%;
+}
+
+/* Próximos eventos */
+.proximos_eventos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .proximos_eventos_container {
+        display: flex;
+        gap: 30px;
+
+        .proximo_evento {
+            display: flex;
+            align-items: center;
+
+            .data {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 5px;
+                width: 50px;
+                border-radius: 5px;
+                background-color: #6912ec;
+
+                .nome {
+                    font-size: .8em;
+                    margin-top: -5px;
+                }
+            }
+
+            .descricao_evento {
+                background-color: #834dd46c;
+                padding: .2em 2em;
+                padding-left: .5em;
+                border-radius: 0 5px 5px 0;
+
+                .horario {
+                    margin-top: -5px;
+                    font-size: .9em;
+                    color: rgba(255, 255, 255, 0.669);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* Tracker semanal*/
+.tracker_semanal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .tracker_semanal_container {
+        display: flex;
+        gap: 30px;
+
+        .horas_estudo,
+        .em_andamento,
+        .projetos {
+            background-color: #6d6d6f53;
+            display: flex;
+            padding: 1em;
+            gap: 20px;
+            border-radius: 10px;
+
+            .descricao {
+                .quantidade {
+                    font-size: 2em;
+                }
+            }
+
+            img {
+                width: 2.5em;
+            }
+        }
+    }
+}
+
+/* Lista de tarefas */
+.lista_tarefas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(46, 30, 46, 0.661);
+    padding: 1em;
+    border-radius: 10px;
+
+    .lista_tarefas_container {
+        display: flex;
+        gap: 20px;
+
+        .lista_tarefas_collun {
+            display: flex;
+            flex-direction: column;
+            background-color: #452d6871;
+            border-radius: 10px;
+            padding: 1em;
+            gap: 2em;
+            height: max-content;
+
+            .barra_superior {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+
+            }
+
+            .to_do_itens,
+            .doing_itens,
+            .done_itens {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .to_do_item,
+                .doing_item,
+                .done_item {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    background-color: #481791;
+                    padding: 1em;
+                    border-radius: 10px;
+
+
+                    .tempo {
+                        display: flex;
+                        gap: 10px;
+                        color: rgba(255, 255, 255, 0.645);
+                    }
+                }
+            }
+
+            .barra_inferior {
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    p {
+                        text-decoration: none;
+                        color: gray;
+                    }
+                }
+
+            }
+
+        }
+    }
 }
