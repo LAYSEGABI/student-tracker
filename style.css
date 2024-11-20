@@ -21,7 +21,7 @@ header {
 
     .left {
         h1 {
-            font-size: 1.6em;
+            font-size: 1.2em;
             font-weight: 500;
         }
 
@@ -29,11 +29,11 @@ header {
 
     .right {
         .notificacao {
-            width: 2em;
+            width: 1.5em;
         }
 
         .profile {
-            width: 3em;
+            width: 2.5em;
         }
     }
 
@@ -43,11 +43,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 200px;
+    width: 180px;
     background-color: #1c1c1c;
     color: #fff;
     min-height: 100vh;
-    padding-top: 20px;
+    padding-top: 10px;
     overflow-y: auto;
     box-shadow: 4px 0 8px rgba(0, 0, 0, 0.5);
     transition: width .3s ease;
@@ -92,6 +92,10 @@ header {
                     background-color: #a72be0;
                 }
 
+                img {
+                    width: 25px;
+                }
+
                 span {
                     white-space: nowrap;
                 }
@@ -122,368 +126,155 @@ header {
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
+
+    img {
+        width: 20px;
+    }
 }
 
 .container {
     display: flex;
     margin: 2.5em;
     margin-left: 240px;
-    margin-top: 100px;
+    margin-top: 90px;
     transition: .5s;
     gap: 2em;
-
-    .container_left {
-        display: flex;
-        flex-direction: column;
-        gap: 2em;
-        width: 80%;
-
-        /* Próximos eventos */
-        .proximos_eventos {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-
-            .proximos_eventos_container {
-                display: flex;
-                gap: 30px;
-
-                .proximo_evento {
-                    display: flex;
-                    align-items: center;
-
-                    .data {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        padding: 5px;
-                        width: 50px;
-                        border-radius: 5px;
-                        background-color: #6912ec;
-
-                        .nome {
-                            font-size: .8em;
-                            margin-top: -5px;
-                        }
-                    }
-
-                    .descricao_evento {
-                        background-color: #834dd46c;
-                        padding: .2em 2em;
-                        padding-left: .5em;
-                        border-radius: 0 5px 5px 0;
-                        white-space: nowrap;
-
-                        .horario {
-                            margin-top: -5px;
-                            font-size: .9em;
-                            color: rgba(255, 255, 255, 0.669);
-                        }
-                    }
-                }
-            }
-        }
-
-        /* Tracker semanal*/
-        .tracker_semanal {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-
-            .tracker_semanal_container {
-                display: flex;
-                gap: 30px;
-
-                .horas_estudo,
-                .em_andamento,
-                .projetos {
-                    background-color: #6d6d6f53;
-                    display: flex;
-                    padding: 1em;
-                    gap: 20px;
-                    border-radius: 10px;
-
-                    .descricao {
-                        .quantidade {
-                            font-size: 2em;
-                        }
-                    }
-
-                    img {
-                        width: 2.5em;
-                    }
-                }
-            }
-        }
-
-        /* Lista de tarefas */
-        .lista_tarefas {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            background-color: rgba(46, 30, 46, 0.661);
-            padding: 1em;
-            border-radius: 10px;
-
-            .lista_tarefas_container {
-                display: flex;
-                gap: 20px;
-
-                .lista_tarefas_collun {
-                    display: flex;
-                    flex-direction: column;
-                    background-color: #452d6871;
-                    border-radius: 10px;
-                    padding: 1em;
-                    gap: 2em;
-                    height: max-content;
-
-                    .barra_superior {
-                        display: flex;
-                        width: 100%;
-                        justify-content: space-between;
-
-                    }
-
-                    .to_do_itens,
-                    .doing_itens,
-                    .done_itens {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 10px;
-
-                        .to_do_item,
-                        .doing_item,
-                        .done_item {
-                            display: flex;
-                            flex-direction: column;
-                            gap: 10px;
-                            background-color: #481791;
-                            padding: 1em;
-                            border-radius: 10px;
-
-
-                            .tempo {
-                                display: flex;
-                                gap: 10px;
-                                color: rgba(255, 255, 255, 0.645);
-                            }
-                        }
-                    }
-
-                    .barra_inferior {
-                        a {
-                            display: flex;
-                            align-items: center;
-                            gap: 10px;
-
-                            p {
-                                text-decoration: none;
-                                color: gray;
-                            }
-                        }
-
-                    }
-
-                }
-            }
-        }
-    }
-
-    .container_right {
-        display: flex;
-        flex-direction: column;
-        width: 400px;
-        gap: 2em;
-
-        .pomodoro {
-
-
-            h3 {
-                margin-bottom: .8em;
-            }
-
-            .pomodoro_container {
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                background-color: #48179194;
-                border-radius: 10px;
-
-                .pomodoro_estatisticas {
-                    display: flex;
-                    flex-direction: column;
-                    border-bottom: 1px solid gray;
-                    padding: 1em;
-
-                    .pomodoro_estatisticas_barra {
-                        display: flex;
-                        width: 100%;
-                        justify-content: space-between;
-
-                        img {
-                            width: 1.5em;
-                        }
-                    }
-
-                    .numeros {
-                        display: flex;
-                        width: 100%;
-                        justify-content: space-evenly;
-                        align-items: center;
-
-                        .estudo,
-                        .pausa {
-                            display: flex;
-                            flex-direction: column;
-                            margin-top: .5em;
-                            align-items: center;
-
-                            p:first-child {
-                                font-size: 2em;
-                                font-weight: 500;
-                            }
-
-                            p:last-child {
-                                color: rgba(238, 237, 237, 0.716);
-                            }
-                        }
-                    }
-                }
-
-                .pomodoro_cronometro {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    padding: 1em;
-                    gap: 20px;
-
-                    .pomodoro_cronometro_img {
-                        width: 100px;
-                    }
-
-                    .pomodoro_cronometro_controles {
-                        display: flex;
-                        gap: 20px;
-                    }
-                }
-            }
-        }
-
-        .ranking {
-            display: flex;
-            flex-direction: column;
-            background-color: rgba(82, 78, 87, 0.433);
-            padding: 1em;
-            border-radius: 10px;
-            width: 100%;
-            gap: 1em;
-
-            .ranking_itens {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                gap: 10px;
-
-                .colocacao {
-                    font-size: 2em;
-                    width: 30px;
-                    text-align: center;
-                }
-
-                .ranking_item {
-                    display: flex;
-                    width: 100%;
-                    gap: 10px;
-                    align-items: center;
-
-                    .ranking_item_descricao {
-                        display: flex;
-                        background-color: rgba(132, 23, 142, 0.653);
-                        width: 100%;
-                        border-radius: 5px;
-                        padding: .5em;
-                        justify-content: space-between;
-
-                        .ranking_item_descricao_perfil {
-                            display: flex;
-                            gap: 10px;
-                            align-items: center;
-
-                            img {
-                                width: 2.5em;
-                            }
-                        }
-
-                        .pontuacao {
-                            display: flex;
-                            align-items: center;
-                            gap: 5px;
-
-                            .pontos {
-                                font-size: 1.3em;
-                                font-weight: 600;
-                            }
-
-                            span {
-                                font-size: .8em;
-                                color: #bfa7e3e7;
-                            }
-                        }
-
-                    }
-                }
-
-                .ranking_pessoal {
-                    margin-top: 2em;
-
-                    .ranking_item_descricao {
-                        background-color: #a01ac2;
-                    }
-                }
-            }
-
-            .ranking_outro {
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                color: rgba(255, 255, 255, 0.729);
-                margin-top: 1em;
-                transition: .5s;
-
-                &:hover  {
-                    color: #8966bd;
-                    
-                    img {
-                        animation: moverParaDireita ease-in-out 0.3s forwards;
-
-                    }
-                    
-                }
-
-            }
-        }
-
-
-
-
-    }
-
 }
 
 .container.retracted {
     margin-left: 100px;
 }
 
+.container_geral {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s;
+    position: relative;
+    opacity: 1;
+
+    .hidden {
+        opacity: 0; /* Invisível para transição */
+      }
+    
+    
+
+    .login-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(201, 204, 210, 0.053);
+        padding: 2em;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 350px;
+        text-align: center;
+
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+
+            h2 {
+                margin-bottom: 2em;
+            }
+
+            .login_google {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                gap: 20px;
+                border-radius: 5px;
+                color: rgb(12, 8, 45);
+                font-weight: 500;
+                align-items: center;
+                background-color: white;
+                padding: 5px 10px;
+                transition: .5s;
+                
+                
+                &:hover {
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.541);
+                    transform: translateY(-3px);
+                }
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+            .alternativa {
+                font-size: .8em;
+                color: rgba(255, 255, 255, 0.683);
+                padding-top: 20px;
+            }
+
+            label {
+                width: 100%;
+                display: flex;
+                margin: 10px 0 5px;
+                color: #f1f1f1a8;
+            }
+
+            input {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 15px;
+                background-color: #e0dce017;
+                border: 2px solid #ffffff8f;
+                border-radius: 4px;
+                color: white;
+            }
+
+            button {
+                background-color: #106fe3;
+                color: white;
+                margin-top: 2em;
+                padding: 10px 2em;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                width: 100%;
+                font-weight: 600;
+                transition: .5s;
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.483);
 
 
-@keyframes moverParaDireita {
-    from {
-        transform: translateX(0);
+                &:hover {
+                    background-color: #0a58b8;
+                    box-shadow: none;
+                    transform: translateY(3px);
+                }
+
+            }
+
+            .esqueceu_senha {
+                font-size: .8em;
+                margin-top: 1.5em;
+                color: rgba(255, 255, 255, 0.79);
+                transition: .5s;
+
+                &:hover {
+                    color: white;
+                }
+            }
+
+            .error-message {
+                color: rgb(245, 90, 90);
+                font-size: 0.9em;
+                padding-top: 2em;
+            }
+
+        }
     }
 
-    to {
-        transform: translateX(5px);
-    }
 }
