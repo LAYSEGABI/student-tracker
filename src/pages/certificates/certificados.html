@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../global.css">
+    <link rel="stylesheet" href="certificados.css">
     <link rel="shortcut icon" href="../../assets/img/newspaper-regular 1.svg" type="image/x-icon">
     <title>Certificados</title>
 </head>
@@ -27,11 +28,13 @@
                 <ul>
                     <li><a href="../../../index.html"><img src="../../assets/img/home-solid 1.svg"
                                 alt=""><span>Home</span></a></li>
-                    <li><a href="../insignias/insignias.html"><img src="../../assets/img/icon-insignias.svg" alt=""><span>Insígnias</span></a>
+                    <li><a href="../insignias/insignias.html"><img src="../../assets/img/icon-insignias.svg"
+                                alt=""><span>Insígnias</span></a>
                     </li>
                     <li><a href="certificados.html"><img src="../../assets/img/newspaper-regular 1.svg"
                                 alt=""><span>Certificados</span></a></li>
-                    <li><a href="#"><img src="../../assets/img/pager-solid 1.svg" alt=""><span>Projetos</span></a></li>
+                    <li><a href="../projects/projetos.html"><img src="../../assets/img/pager-solid 1.svg"
+                                alt=""><span>Projetos</span></a></li>
                     <li><a href="#"><img src="../../assets/img/check-double-solid 1.svg" alt=""><span>Tarefas
                                 feitas</span></a></li>
                     <li><a href="#"><img src="../../assets/img/calendar-alt-solid 1.svg" alt=""><span>Eventos</span></a>
@@ -40,19 +43,35 @@
             </nav>
         </aside>
         <div class="container" id="container_certificados">
-            <div class="tabs">
-              <button id="btn-all" class="tab filter-btn selected" onclick="filterCertificados('all')">Todas</button>
-              <button id="btn-eventos" class="tab filter-btn" onclick="filterCertificados('eventos')">Eventos</button>
-              <button id="btn-alura" class="tab filter-btn" onclick="filterCertificados('alura')">Alura</button>
-              <button id="btn-rocketseat" class="tab filter-btn" onclick="filterCertificados('rocketseat')">Rocketseat</button>
+
+            <div class="nav_container_certificados">
+                <div class="tabs">
+                    <button id="btn-all" class="tab filter-btn selected"
+                        onclick="filterCertificados(certificadosPagina, 'all')">Todas</button>
+                    <button id="btn-eventos" class="tab filter-btn"
+                        onclick="filterCertificados(certificadosPagina, 'eventos')">Eventos</button>
+                    <button id="btn-alura" class="tab filter-btn"
+                        onclick="filterCertificados(certificadosPagina, 'alura')">Alura</button>
+                    <button id="btn-rocketseat" class="tab filter-btn"
+                        onclick="filterCertificados(certificadosPagina, 'rocketseat')">Rocketseat</button>
+                    <button id="btn-faculdade" class="tab filter-btn"
+                        onclick="filterCertificados(certificadosPagina, 'faculdade')">Faculdade</button>
+
+                </div>
+                <div class="edicao_filtros">
+                    <a class="filtro_ordem_certificados" href="javascript:void(0)"
+                        onclick="ordenarCertificados('asc')">Mais antigo</a>
+                    <a class="filtro_ordem_certificados" href="javascript:void(0)"
+                        onclick="ordenarCertificados('desc')">Mais recente</a>
+
+
+
+                    <a class="adicionar_certificado" href="javascript:void(0)" onclick="openModal()">+</a>
+                </div>
             </div>
-          
+
             <div class="container_itens" id="container_itens"></div>
-          </div>
-          
-
-
-
+        </div>
     </main>
 
     <script src="../../../main.js"></script>

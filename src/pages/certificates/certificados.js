@@ -1,97 +1,95 @@
 const container_certificados = document.getElementById("container_itens");
+let certificadosPagina = []; // Declarar como variável global
 
-const certificados = [
-  {
-    pdf: "../../assets/certificados_pdf/Certificado Java Foundation.pdf",
-    thumbnail: "../../assets/certificados_pdf//WhatsApp Image 2024-11-13 at 22.51.06.jpeg",
-    titulo: "Java",
-    data: "23/07",
-    type: "eventos",
-  },
-  { 
-    pdf: "../../assets/certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
-    titulo: "Design", 
-    data: "23/07", 
-    type: "alura" 
-},
-  { 
-    pdf: "../../assets/certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
-    titulo: "Figma", 
-    data: "23/07", 
-    type: "rocketseat" 
-},
-  { 
-    pdf: "../../assets/certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
-    titulo: "Html e css", 
-    data: "29/07", 
-    type: "alura" 
-},
-{ 
-    pdf: "../../assets/certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
-    titulo: "Html e css", 
-    data: "29/07", 
-    type: "eventos" 
+// Função para buscar o JSON de certificados
+async function fetchCertificados(caminho) {
+  try {
+    const response = await fetch(caminho);
+    if (!response.ok) {
+      throw new Error(`Erro ao carregar o arquivo: ${response.status}`);
+    }
+    return await response.json();
+  } catch (erro) {
+    console.error("Erro ao carregar o JSON:", erro);
+    return [];
+  }
 }
-];
 
-function filterCertificados(category) {
-  const filterCertificado =
+// Função de filtro
+function filterCertificados(certificados, category) {
+  const filtrados =
     category === "all"
       ? certificados
       : certificados.filter((certificado) => certificado.type === category);
 
-  renderizarCertificados(filterCertificado);
+  renderizarCertificados(filtrados);
+  updateActiveButton(category);
 }
 
-function renderizarCertificados(certificadosParaRenderizar) {
-  clearContainerList();
+function updateActiveButton(activeCategory) {
+  document.querySelectorAll(".filter-btn").forEach((button) => {
+    button.classList.remove("selected");
+  });
 
-  certificadosParaRenderizar.forEach((item) => {
+  const activeButton = document.querySelector(
+    `.filter-btn[onclick="filterCertificados('${activeCategory}')"]`
+  );
+  if (activeButton) {
+    activeButton.classList.add("selected");
+  }
+}
+
+
+// Renderizar certificados no DOM
+function renderizarCertificados(certificados) {
+  clearContainerList();
+  certificados.forEach((item) => {
     const itemCertificado = document.createElement("div");
     itemCertificado.classList.add("item");
 
     itemCertificado.innerHTML = `
-      <h3>Titulo: ${item.titulo}</h3>
+      <embed src="../../assets/certificados/${item.pdf}" class="pdf" type="application/pdf">
+      <h3>${item.titulo}</h3>
       <p>Data: ${item.data}</p>
-      <embed src="${item.pdf}" width="400px" height="300px" type="application/pdf">
     `;
-
     container_certificados.appendChild(itemCertificado);
   });
 }
 
-function getTotalCertificadosByCategory(category) {
-  return certificados.reduce(
-    (acc, it) => (it.type === category ? acc + 1 : acc),
-    0
-  );
+// Contar certificados por categoria
+function getTotalCertificadosByCategory(certificados, category) {
+  return certificados.filter((it) => it.type === category).length;
 }
 
+// Limpar o container de certificados
 function clearContainerList() {
-  while (container_certificados.firstChild) {
-    container_certificados.removeChild(container_certificados.firstChild);
-  }
+  container_certificados.innerHTML = "";
 }
 
-function updateButtonLabels() {
-  const totalEventos = getTotalCertificadosByCategory("eventos");
-  const totalAlura = getTotalCertificadosByCategory("alura");
-  const totalRocketseat = getTotalCertificadosByCategory("rocketseat");
-  const totalAll = certificados.length;
+// Carregar certificados e armazenar em certificadosPagina
+fetchCertificados("../../assets/certificados/certificados.json").then((dados) => {
+  certificadosPagina = dados.map((certificado) => ({
+    pdf: certificado.pdf,
+    titulo: certificado.titulo,
+    data: certificado.data,
+    type: certificado.type,
+  }));
 
-  document.getElementById("btn-all").innerText = `Todas (${totalAll})`;
+  // Atualizar contadores nos botões
+  document.getElementById("btn-all").innerText = `Todas ${certificadosPagina.length}`;
   document.getElementById(
     "btn-eventos"
-  ).innerText = `Eventos (${totalEventos})`;
-  document.getElementById("btn-alura").innerText = `Alura (${totalAlura})`;
+  ).innerText = `Eventos ${getTotalCertificadosByCategory(certificadosPagina, "eventos")}`;
+  document.getElementById(
+    "btn-alura"
+  ).innerText = `Alura ${getTotalCertificadosByCategory(certificadosPagina, "alura")}`;
   document.getElementById(
     "btn-rocketseat"
-  ).innerText = `Rocketseat (${totalRocketseat})`;
-}
+  ).innerText = `Rocketseat ${getTotalCertificadosByCategory(certificadosPagina, "rocketseat")}`;
+  document.getElementById(
+    "btn-faculdade"
+  ).innerText = `Faculdade ${getTotalCertificadosByCategory(certificadosPagina, "faculdade")}`;
 
-// Atualiza os rótulos dos botões com o total de certificados
-updateButtonLabels();
-
-// Renderiza todos os certificados inicialmente
-renderizarCertificados(certificados);
+  renderizarCertificados(certificadosPagina);
+});
 

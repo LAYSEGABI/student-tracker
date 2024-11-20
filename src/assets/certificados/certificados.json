@@ -1,0 +1,74 @@
+[
+    {
+      "pdf": "certificados_pdf/Certificado Java Foundation.pdf",
+      "titulo": "Certificado Java Foundation",
+      "data": "04/06/24",
+      "type": "faculdade",
+      "dataCriacao": "2024-11-18T00:00:00Z",
+      "dataAtualizacao": "2024-11-18T00:00:00Z",
+      "ativo": true,
+      "criadoPor": "admin"
+    },
+    {
+      "pdf": "certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
+      "titulo": "Design",
+      "data": "23/07",
+      "type": "alura",
+      "dataCriacao": "2024-11-18T00:00:00Z",
+      "dataAtualizacao": "2024-11-18T00:00:00Z",
+      "ativo": true,
+      "criadoPor": "admin"
+    },
+    {
+      "pdf": "certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
+      "titulo": "Figma",
+      "data": "23/07",
+      "type": "alura",
+      "dataCriacao": "2024-11-18T00:00:00Z",
+      "dataAtualizacao": "2024-11-18T00:00:00Z",
+      "ativo": true,
+      "criadoPor": "admin"
+    },
+    {
+      "pdf": "certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
+      "titulo": "Html e css",
+      "data": "29/07",
+      "type": "alura",
+      "dataCriacao": "2024-11-18T00:00:00Z",
+      "dataAtualizacao": "2024-11-18T00:00:00Z",
+      "ativo": true,
+      "criadoPor": "admin"
+    },
+    {
+      "pdf": "certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
+      "titulo": "Html e css",
+      "data": "29/07",
+      "type": "alura",
+      "dataCriacao": "2024-11-18T00:00:00Z",
+      "dataAtualizacao": "2024-11-18T00:00:00Z",
+      "ativo": true,
+      "criadoPor": "admin"
+    },
+    {
+      "pdf": "certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
+      "titulo": "Html e css",
+      "data": "29/07",
+      "type": "eventos",
+      "dataCriacao": "2024-11-18T00:00:00Z",
+      "dataAtualizacao": "2024-11-18T00:00:00Z",
+      "ativo": true,
+      "criadoPor": "admin"
+    }
+    ,
+    {
+      "pdf": "certificados_pdf/Cópia de Layse Gabrielly Silva Lima.pdf",
+      "titulo": "Html e css teste",
+      "data": "29/07",
+      "type": "rocketseat",
+      "dataCriacao": "2024-11-18T00:00:00Z",
+      "dataAtualizacao": "2024-11-18T00:00:00Z",
+      "ativo": true,
+      "criadoPor": "admin"
+    }
+  ]
+  

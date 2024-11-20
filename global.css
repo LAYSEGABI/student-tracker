@@ -17,10 +17,13 @@ body {
     font-family: "Poppins", serif;
     overflow-x: hidden;
     background-color: rgb(32, 24, 36);
+
+    a {
+        text-decoration: none;
+    }
 }
 
 main {
-    display: flex;
     overflow-y: auto;
 }
 
