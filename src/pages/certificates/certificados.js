@@ -34,6 +34,7 @@ function updateActiveButton(activeCategory) {
   const activeButton = document.querySelector(
     `.filter-btn[onclick="filterCertificados('${activeCategory}')"]`
   );
+  console.log(activeCategory)
   if (activeButton) {
     activeButton.classList.add("selected");
   }

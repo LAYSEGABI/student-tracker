@@ -10,7 +10,7 @@
 
 
             .tab {
-                background-color: #6e0e9a4e;
+                background-color: #0e419a4e;
                 color: rgba(255, 255, 255, 0.848);
                 padding: 10px;
                 margin: 5px;
@@ -22,14 +22,14 @@
                 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.393);
 
                 &:hover {
-                    background-color: rgb(109, 28, 150);
+                    background-color: rgb(28, 61, 150);
                     box-shadow: none;
                     transform: translateY(3px);
                 }
             }
 
             .selected {
-                background-color: #7a16b8;
+                background-color: var(--cor-destaque);
                 color: white;
                 transform: translateY(3px);
                 box-shadow: none;

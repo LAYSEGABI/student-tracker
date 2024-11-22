@@ -1,0 +1,346 @@
+[
+  {
+    "title": "Figma",
+    "description": "Os princípios de visual design envolvem a criação de interfaces atraentes e funcionais.",
+    "image": "./insignias-img/figma-nl3.png",
+    "category": "design",
+    "link_formação": "https://www.alura.com.br/formacao-design-grafico",
+    "nivel_1": {
+      "objetivo": " Desenvolvimento de no mínimo 2 peças gráficas do mesmo conceito/família",
+      "criterios": {
+        "1": "Apresente o painel de referências",
+        "2": "Estudo e definição: paleta de cores; tipografia; elementos gráficos",
+        "3": "Apresente a argumentação da utilização de todos os elementos gráficos"
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver 3 peças gráficas que apliquem no mínimo 3 princípios de Gestalt",
+      "criterios": {
+        "1": "Utilizar a identidade do nível 1 ou criar uma nova identidade que respeite os mesmos critérios.",
+        "2": "Referências que apresentem os princípios utilizados",
+        "3": "Apresente e explique a utilização dos princípios."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Elaborar o redesign de uma peça gráfica já existente (poster de filme, capa de álbum, logo, embalagem.",
+      "criterios": {
+        "1": "Utilize os fundamentos estudados nos níveis 1 e 2"
+      }
+    }
+  },
+  {
+    "title": "Design de Interface - Web (UI)",
+    "description": "Descrição sobre a insígnia de Design de Interface - Web (UI).",
+    "image": "./insignias-img/Frame 55.png",
+    "category": "design",
+    "link_formação": "https://www.alura.com.br/formacao-design-interfaces",
+    "nivel_1": {
+      "objetivo": "Definir a proposta de um produto ou serviço e sua identidade visual.",
+      "criterios": {
+        "1": "Defina a proposta de um produto ou serviço com um tema que você goste e se identifique.",
+        "2": "Defina os conceitos que referenciam a marca deste produto e serviço.",
+        "3": "Geração de alternativas wireframes em papel.",
+        "4": "Crie wireframes em ferramentas digitais.",
+        "5": "Estrutura: Barra de navegação, corpo da página, botões."
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver um protótipo navegável no Figma e aplicar o style guide.",
+      "criterios": {
+        "1": "Desenvolva o protótipo navegável no Figma.",
+        "2": "Desenvolva no mínimo três telas da página web.",
+        "3": "Monte o style guide no Figma: cores, espaçamento, grid e tipografia.",
+        "4": "Estrutura: Header, seções internas e footer. Conteúdo textual e imagético aplicados."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Aplicar requisitos de acessibilidade e transformar os elementos em componentes.",
+      "criterios": {
+        "1": "Aplique dois requisitos de acessibilidade da WCAG.",
+        "2": "Versão mobile de todas as telas.",
+        "3": "Transforme os elementos da tela em componentes.",
+        "4": "Apresente o projeto no seu portfólio."
+      }
+    }
+  },
+  {
+    "title": "Design de Interface - Mobile (UI)",
+    "description": "Descrição sobre a insígnia de Design de Interface - Web (UI).",
+    "image": "./insignias-img/Frame 75.png",
+    "category": "design",
+    "link_formação": "https://www.alura.com.br/formacao-design-interfaces",
+    "nivel_1": {
+      "objetivo": "Definir a proposta de um produto ou serviço e sua identidade visual.",
+      "criterios": {
+        "1": "Defina a proposta de um produto ou serviço com um tema que você goste e se identifique.",
+        "2": "Defina os conceitos que referenciam a marca deste produto e serviço.",
+        "3": "Geração de alternativas wireframes em papel.",
+        "4": "Crie wireframes em ferramentas digitais.",
+        "5": "Estrutura: Barra de navegação, corpo da página, botões."
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver um protótipo navegável no Figma e aplicar o style guide.",
+      "criterios": {
+        "1": "Desenvolva o protótipo navegável no Figma.",
+        "2": "Desenvolva no mínimo três telas da página web.",
+        "3": "Monte o style guide no Figma: cores, espaçamento, grid e tipografia.",
+        "4": "Estrutura: Header, seções internas e footer. Conteúdo textual e imagético aplicados."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Aplicar requisitos de acessibilidade e transformar os elementos em componentes.",
+      "criterios": {
+        "1": "Aplique dois requisitos de acessibilidade da WCAG.",
+        "2": "Versão mobile de todas as telas.",
+        "3": "Transforme os elementos da tela em componentes.",
+        "4": "Apresente o projeto no seu portfólio."
+      }
+    }
+  },
+  {
+    "title": "(UX) - User experience",
+    "description": "Descrição sobre a insígnia de Design de Interface - Web (UI).",
+    "image": "./insignias-img/Frame 61.png",
+    "category": "design",
+    "link_formação": "https://www.alura.com.br/formacao-design-interfaces",
+    "nivel_1": {
+      "objetivo": "Definir a proposta de um produto ou serviço e sua identidade visual.",
+      "criterios": {
+        "1": "Defina a proposta de um produto ou serviço com um tema que você goste e se identifique.",
+        "2": "Defina os conceitos que referenciam a marca deste produto e serviço.",
+        "3": "Geração de alternativas wireframes em papel.",
+        "4": "Crie wireframes em ferramentas digitais.",
+        "5": "Estrutura: Barra de navegação, corpo da página, botões."
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver um protótipo navegável no Figma e aplicar o style guide.",
+      "criterios": {
+        "1": "Desenvolva o protótipo navegável no Figma.",
+        "2": "Desenvolva no mínimo três telas da página web.",
+        "3": "Monte o style guide no Figma: cores, espaçamento, grid e tipografia.",
+        "4": "Estrutura: Header, seções internas e footer. Conteúdo textual e imagético aplicados."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Aplicar requisitos de acessibilidade e transformar os elementos em componentes.",
+      "criterios": {
+        "1": "Aplique dois requisitos de acessibilidade da WCAG.",
+        "2": "Versão mobile de todas as telas.",
+        "3": "Transforme os elementos da tela em componentes.",
+        "4": "Apresente o projeto no seu portfólio."
+      }
+    }
+  },
+  {
+    "title": "Lógica de Programação",
+    "description": "Descrição sobre a insígnia ",
+    "image": "./insignias-img/Frame 77.png",
+    "category": "programming",
+    "link_formação": "https://www.alura.com.br/formacao-design-interfaces",
+    "nivel_1": {
+      "objetivo": "Definir a proposta de um produto ou serviço e sua identidade visual.",
+      "criterios": {
+        "1": "Defina a proposta de um produto ou serviço com um tema que você goste e se identifique.",
+        "2": "Defina os conceitos que referenciam a marca deste produto e serviço.",
+        "3": "Geração de alternativas wireframes em papel.",
+        "4": "Crie wireframes em ferramentas digitais.",
+        "5": "Estrutura: Barra de navegação, corpo da página, botões."
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver um protótipo navegável no Figma e aplicar o style guide.",
+      "criterios": {
+        "1": "Desenvolva o protótipo navegável no Figma.",
+        "2": "Desenvolva no mínimo três telas da página web.",
+        "3": "Monte o style guide no Figma: cores, espaçamento, grid e tipografia.",
+        "4": "Estrutura: Header, seções internas e footer. Conteúdo textual e imagético aplicados."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Aplicar requisitos de acessibilidade e transformar os elementos em componentes.",
+      "criterios": {
+        "1": "Aplique dois requisitos de acessibilidade da WCAG.",
+        "2": "Versão mobile de todas as telas.",
+        "3": "Transforme os elementos da tela em componentes.",
+        "4": "Apresente o projeto no seu portfólio."
+      }
+    }
+  },
+  {
+    "title": "Frameworks FrontEnd",
+    "description": "Descrição sobre a insígnia ",
+    "image": "./insignias-img/Frame 82.png",
+    "category": "programming",
+    "link_formação": "https://www.alura.com.br/formacao-design-interfaces",
+    "nivel_1": {
+      "objetivo": "Definir a proposta de um produto ou serviço e sua identidade visual.",
+      "criterios": {
+        "1": "Defina a proposta de um produto ou serviço com um tema que você goste e se identifique.",
+        "2": "Defina os conceitos que referenciam a marca deste produto e serviço.",
+        "3": "Geração de alternativas wireframes em papel.",
+        "4": "Crie wireframes em ferramentas digitais.",
+        "5": "Estrutura: Barra de navegação, corpo da página, botões."
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver um protótipo navegável no Figma e aplicar o style guide.",
+      "criterios": {
+        "1": "Desenvolva o protótipo navegável no Figma.",
+        "2": "Desenvolva no mínimo três telas da página web.",
+        "3": "Monte o style guide no Figma: cores, espaçamento, grid e tipografia.",
+        "4": "Estrutura: Header, seções internas e footer. Conteúdo textual e imagético aplicados."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Aplicar requisitos de acessibilidade e transformar os elementos em componentes.",
+      "criterios": {
+        "1": "Aplique dois requisitos de acessibilidade da WCAG.",
+        "2": "Versão mobile de todas as telas.",
+        "3": "Transforme os elementos da tela em componentes.",
+        "4": "Apresente o projeto no seu portfólio."
+      }
+    }
+  },
+  {
+    "title": "Python",
+    "description": "Descrição sobre a insígnia ",
+    "image": "./insignias-img/Frame 79.png",
+    "category": "programming",
+    "link_formação": "https://www.alura.com.br/formacao-design-interfaces",
+    "nivel_1": {
+      "objetivo": "Definir a proposta de um produto ou serviço e sua identidade visual.",
+      "criterios": {
+        "1": "Defina a proposta de um produto ou serviço com um tema que você goste e se identifique.",
+        "2": "Defina os conceitos que referenciam a marca deste produto e serviço.",
+        "3": "Geração de alternativas wireframes em papel.",
+        "4": "Crie wireframes em ferramentas digitais.",
+        "5": "Estrutura: Barra de navegação, corpo da página, botões."
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver um protótipo navegável no Figma e aplicar o style guide.",
+      "criterios": {
+        "1": "Desenvolva o protótipo navegável no Figma.",
+        "2": "Desenvolva no mínimo três telas da página web.",
+        "3": "Monte o style guide no Figma: cores, espaçamento, grid e tipografia.",
+        "4": "Estrutura: Header, seções internas e footer. Conteúdo textual e imagético aplicados."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Aplicar requisitos de acessibilidade e transformar os elementos em componentes.",
+      "criterios": {
+        "1": "Aplique dois requisitos de acessibilidade da WCAG.",
+        "2": "Versão mobile de todas as telas.",
+        "3": "Transforme os elementos da tela em componentes.",
+        "4": "Apresente o projeto no seu portfólio."
+      }
+    }
+  },
+  {
+    "title": "JavaScript",
+    "description": "Descrição sobre a insígnia ",
+    "image": "./insignias-img/Frame 76.png",
+    "category": "programming",
+    "link_formação": "https://www.alura.com.br/formacao-design-interfaces",
+    "nivel_1": {
+      "objetivo": "Definir a proposta de um produto ou serviço e sua identidade visual.",
+      "criterios": {
+        "1": "Defina a proposta de um produto ou serviço com um tema que você goste e se identifique.",
+        "2": "Defina os conceitos que referenciam a marca deste produto e serviço.",
+        "3": "Geração de alternativas wireframes em papel.",
+        "4": "Crie wireframes em ferramentas digitais.",
+        "5": "Estrutura: Barra de navegação, corpo da página, botões."
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver um protótipo navegável no Figma e aplicar o style guide.",
+      "criterios": {
+        "1": "Desenvolva o protótipo navegável no Figma.",
+        "2": "Desenvolva no mínimo três telas da página web.",
+        "3": "Monte o style guide no Figma: cores, espaçamento, grid e tipografia.",
+        "4": "Estrutura: Header, seções internas e footer. Conteúdo textual e imagético aplicados."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Aplicar requisitos de acessibilidade e transformar os elementos em componentes.",
+      "criterios": {
+        "1": "Aplique dois requisitos de acessibilidade da WCAG.",
+        "2": "Versão mobile de todas as telas.",
+        "3": "Transforme os elementos da tela em componentes.",
+        "4": "Apresente o projeto no seu portfólio."
+      }
+    }
+  },
+  {
+    "title": "HTML e CSS",
+    "description": "Descrição sobre a insígnia ",
+    "image": "./insignias-img/Frame 57.png",
+    "category": "programming",
+    "link_formação": "https://www.alura.com.br/formacao-design-interfaces",
+    "nivel_1": {
+      "objetivo": "Definir a proposta de um produto ou serviço e sua identidade visual.",
+      "criterios": {
+        "1": "Defina a proposta de um produto ou serviço com um tema que você goste e se identifique.",
+        "2": "Defina os conceitos que referenciam a marca deste produto e serviço.",
+        "3": "Geração de alternativas wireframes em papel.",
+        "4": "Crie wireframes em ferramentas digitais.",
+        "5": "Estrutura: Barra de navegação, corpo da página, botões."
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver um protótipo navegável no Figma e aplicar o style guide.",
+      "criterios": {
+        "1": "Desenvolva o protótipo navegável no Figma.",
+        "2": "Desenvolva no mínimo três telas da página web.",
+        "3": "Monte o style guide no Figma: cores, espaçamento, grid e tipografia.",
+        "4": "Estrutura: Header, seções internas e footer. Conteúdo textual e imagético aplicados."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Aplicar requisitos de acessibilidade e transformar os elementos em componentes.",
+      "criterios": {
+        "1": "Aplique dois requisitos de acessibilidade da WCAG.",
+        "2": "Versão mobile de todas as telas.",
+        "3": "Transforme os elementos da tela em componentes.",
+        "4": "Apresente o projeto no seu portfólio."
+      }
+    }
+  },
+  {
+    "title": "Marketing",
+    "description": "Descrição sobre a insígnia ",
+    "image": "./insignias-img/Frame 54.png",
+    "category": "marketing",
+    "link_formação": "https://www.alura.com.br/formacao-design-interfaces",
+    "nivel_1": {
+      "objetivo": "Definir a proposta de um produto ou serviço e sua identidade visual.",
+      "criterios": {
+        "1": "Defina a proposta de um produto ou serviço com um tema que você goste e se identifique.",
+        "2": "Defina os conceitos que referenciam a marca deste produto e serviço.",
+        "3": "Geração de alternativas wireframes em papel.",
+        "4": "Crie wireframes em ferramentas digitais.",
+        "5": "Estrutura: Barra de navegação, corpo da página, botões."
+      }
+    },
+    "nivel_2": {
+      "objetivo": "Desenvolver um protótipo navegável no Figma e aplicar o style guide.",
+      "criterios": {
+        "1": "Desenvolva o protótipo navegável no Figma.",
+        "2": "Desenvolva no mínimo três telas da página web.",
+        "3": "Monte o style guide no Figma: cores, espaçamento, grid e tipografia.",
+        "4": "Estrutura: Header, seções internas e footer. Conteúdo textual e imagético aplicados."
+      }
+    },
+    "nivel_3": {
+      "objetivo": "Aplicar requisitos de acessibilidade e transformar os elementos em componentes.",
+      "criterios": {
+        "1": "Aplique dois requisitos de acessibilidade da WCAG.",
+        "2": "Versão mobile de todas as telas.",
+        "3": "Transforme os elementos da tela em componentes.",
+        "4": "Apresente o projeto no seu portfólio."
+      }
+    }
+  }
+]

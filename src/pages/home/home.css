@@ -29,7 +29,7 @@
                         padding: 5px;
                         width: 50px;
                         border-radius: 5px;
-                        background-color: #6912ec;
+                        background-color: var(--cor-destaque);
 
                         .nome {
                             font-size: .8em;
@@ -38,7 +38,7 @@
                     }
 
                     .descricao_evento {
-                        background-color: #834dd46c;
+                        background-color: #4d7ad450;
                         padding: .2em 2em;
                         padding-left: .5em;
                         border-radius: 0 5px 5px 0;
@@ -46,7 +46,7 @@
 
                         .horario {
                             margin-top: -5px;
-                            font-size: .9em;
+                            font-size: .8em;
                             color: rgba(255, 255, 255, 0.669);
                         }
                     }
@@ -62,25 +62,30 @@
 
             .tracker_semanal_container {
                 display: flex;
-                gap: 30px;
+                gap: 20px;
 
                 .horas_estudo,
                 .em_andamento,
                 .projetos {
-                    background-color: #6d6d6f53;
+                    background-color: #2d3e4a73;
                     display: flex;
                     padding: 1em;
                     gap: 20px;
                     border-radius: 10px;
 
                     .descricao {
+                       
                         .quantidade {
-                            font-size: 2em;
+                            font-size: 1.6em;
+                        }
+
+                        .descricao_texto {
+                            font-size: .9em;
                         }
                     }
 
                     img {
-                        width: 2.5em;
+                        width: 2em;
                     }
                 }
             }
@@ -90,19 +95,19 @@
         .lista_tarefas {
             display: flex;
             flex-direction: column;
-            gap: 20px;
-            background-color: rgba(46, 30, 46, 0.661);
+            gap: 10px;
+            background-color: rgba(30, 35, 46, 0.661);
             padding: 1em;
             border-radius: 10px;
 
             .lista_tarefas_container {
                 display: flex;
-                gap: 20px;
+                gap: 10px;
 
                 .lista_tarefas_collun {
                     display: flex;
                     flex-direction: column;
-                    background-color: #452d6871;
+                    background-color: #262f5354;
                     border-radius: 10px;
                     padding: 1em;
                     gap: 2em;
@@ -128,14 +133,19 @@
                             display: flex;
                             flex-direction: column;
                             gap: 10px;
-                            background-color: #481791;
+                            background-color: #133f68;
                             padding: 1em;
                             border-radius: 10px;
+
+                            .item_nome {
+                                font-size: .95em;
+                            }
 
 
                             .tempo {
                                 display: flex;
                                 gap: 10px;
+                                font-size: .8em;
                                 color: rgba(255, 255, 255, 0.645);
                             }
                         }
@@ -177,7 +187,7 @@
                 width: 100%;
                 display: flex;
                 flex-direction: column;
-                background-color: #48179194;
+                background-color: #18447859;
                 border-radius: 10px;
 
                 .pomodoro_estatisticas {
@@ -243,7 +253,7 @@
         .ranking {
             display: flex;
             flex-direction: column;
-            background-color: rgba(82, 78, 87, 0.433);
+            background-color: rgba(78, 80, 87, 0.433);
             padding: 1em;
             border-radius: 10px;
             width: 100%;
@@ -269,7 +279,7 @@
 
                     .ranking_item_descricao {
                         display: flex;
-                        background-color: rgba(132, 23, 142, 0.653);
+                        background-color: rgba(23, 51, 142, 0.653);
                         width: 100%;
                         border-radius: 5px;
                         padding: .5em;
@@ -308,7 +318,7 @@
                     margin-top: 2em;
 
                     .ranking_item_descricao {
-                        background-color: #a01ac2;
+                        background-color: var(--cor-destaque);
                     }
                 }
             }
@@ -322,7 +332,7 @@
                 transition: .5s;
 
                 &:hover  {
-                    color: #8966bd;
+                    color: #6680bd;
                     
                     img {
                         animation: moverParaDireita ease-in-out 0.3s forwards;

@@ -1,114 +1,121 @@
 .container {
     display: flex;
     flex-direction: column;
-}
 
-.nav-insignias {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+    .nav-insignias {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
 
-    a {
-        text-decoration: none;
-        color: whitesmoke;
-        transition: .2s;
+        .tabs {
+            margin-bottom: 20px;
 
-        &:hover {
-            color: rgb(103, 37, 200);
+            .tab {
+                background-color: #0e3a9a70;
+                color: rgba(255, 255, 255, 0.848);
+                padding: 10px;
+                margin: 5px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                font-weight: 600;
+                border: none;
+                transition: .3s;
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.393);
+
+                &:hover {
+                    background-color: rgb(28, 65, 150);
+                    box-shadow: none;
+                    transform: translateY(3px);
+                }
+            }
+
+            .selected {
+                background-color: var(--cor-destaque);
+                color: white;
+                transform: translateY(3px);
+                box-shadow: none;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+            transition: .3s;
+
+            &:hover {
+                color: rgb(37, 105, 200);
+            }
+        }
+    }
+
+    .container_insignias {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        .item_insignia {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: .5em;
+            gap: 10px;
+            width: 150px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.393);
+            transition: .5s;
+
+            &:hover {
+                box-shadow: none;
+                transform: translateY(5px);
+
+            }
+
+            h3 {
+                font-size: .8em;
+            }
         }
     }
 }
 
-.tabs {
-    margin-bottom: 20px;
-}
-
-.tab {
-    background-color: #6e0e9a70;
-    color: rgba(255, 255, 255, 0.848);
-    padding: 10px;
-    margin: 5px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: 600;
-
-    &:hover {
-        background-color: rgb(109, 28, 150);
-    }
-}
-
-.items {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.item {
-    display: none;
-    /* Esconde itens por padrão */
-    padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
-    width: 150px;
-    text-align: center;
-
-}
-
-.item.visible {
-    display: block;
-}
-
-.filter-btn:active {
-    background-color: #c547ff;
-    /* cor quando o botão for clicado */
-}
-
-.filter-btn.selected {
-    background-color: #bf00ff;
-    /* cor quando o botão estiver selecionado */
-    color: white;
-    /* cor do texto */
-}
 
 
 
-/* Modal */
+
+
+
+
+/* Estilo do modal */
 .modal {
     display: none;
-    /* Modal inicialmente escondido */
+    /* Inicialmente invisível */
     position: fixed;
-    z-index: 5;
-    /* Fica acima de outros elementos */
+    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    /* Fundo escuro */
     overflow: auto;
-    /* Permite rolar se o conteúdo for maior que a tela */
-    padding-top: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Fundo semitransparente */
 }
 
 .modal-content {
-    background-color: #331e3ef6;
-    margin: 5% auto;
+    background-color: #102442;
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 30%;
-    /* Largura do modal */
+    width: 80%;
     max-width: 500px;
-    border-radius: 10px;
-    text-align: center;
+    border-radius: 8px;
 }
 
 .close {
     color: #aaa;
+    float: right;
     font-size: 28px;
     font-weight: bold;
-    position: absolute;
-    right: 15px;
-    top: 10px;
 }
 
 .close:hover,

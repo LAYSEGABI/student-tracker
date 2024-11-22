@@ -28,11 +28,13 @@
                 <ul>
                     <li><a href="../../pages/home/home.html"><img src="../../assets/img/home-solid 1.svg"
                                 alt=""><span>Home</span></a></li>
-                    <li><a href="insignias.html"><img src="../../assets/img/icon-insignias.svg" alt=""><span>Insígnias</span></a>
+                    <li><a href="insignias.html"><img src="../../assets/img/icon-insignias.svg"
+                                alt=""><span>Insígnias</span></a>
                     </li>
                     <li><a href="../certificates/certificados.html"><img src="../../assets/img/newspaper-regular 1.svg"
                                 alt=""><span>Certificados</span></a></li>
-                    <li><a href="../projects/projetos.html"><img src="../../assets/img/pager-solid 1.svg" alt=""><span>Projetos</span></a></li>
+                    <li><a href="../projects/projetos.html"><img src="../../assets/img/pager-solid 1.svg"
+                                alt=""><span>Projetos</span></a></li>
                     <li><a href="#"><img src="../../assets/img/check-double-solid 1.svg" alt=""><span>Tarefas
                                 feitas</span></a></li>
                     <li><a href="#"><img src="../../assets/img/calendar-alt-solid 1.svg" alt=""><span>Eventos</span></a>
@@ -44,63 +46,37 @@
         <div class="container">
             <div class="nav-insignias">
                 <div class="tabs">
-                    <button class="tab filter-btn selected" onclick="filterCategory('all')">Todas</button>
-                    <button class="tab filter-btn" onclick="filterCategory('meus')">Meus</button>
-                    <button class="tab filter-btn" onclick="filterCategory('design')">Design</button>
-                    <button class="tab filter-btn" onclick="filterCategory('programming')">Programação</button>
-                    <button class="tab filter-btn" onclick="filterCategory('marketing')">Marketing</button>
+                    <div class="tabs">
+                        <button id="btn-all" class="tab filter-btn selected" data-category="all">Todas</button>
+                        <button id="btn-programming" class="tab filter-btn"
+                            data-category="programming">Programação</button>
+                        <button id="btn-design" class="tab filter-btn" data-category="design">Design</button>
+                        <button id="btn-marketing" class="tab filter-btn" data-category="marketing">Marketing</button>
+                        <button id="btn-empreendedorismo" class="tab filter-btn"
+                            data-category="empreendedorismo">Empreendedorismo</button>
+                    </div>
+
                 </div>
                 <a href="#">Como funciona?</a>
             </div>
 
-            <div class="items">
-                <!-- Insígnias -->
-                <div class="item design meus">
-                    <a href="#" onclick="openModal('Design Gráfico', 'Descrição sobre a insígnia de Design Gráfico.')">
-                        <img src="../../assets/img/insignias/Frame 97.png" alt="Design Gráfico">
-                    </a>
-                    <h5>Design Gráfico</h5>
-                </div>
-            
-                <div class="item design meus">
-                    <a href="#" onclick="openModal('Design Gráfico', 'Descrição sobre a insígnia de Design Gráfico.')">
-                        <img src="../../assets/img/insignias/Frame 97.png" alt="Design Gráfico">
-                    </a>
-                    <h5>Design Gráfico</h5>
-                </div>
-            
-                <div class="item programming">
-                    <a href="#" onclick="openModal('Programação - Mobile', 'Descrição sobre a insígnia de Programação - Mobile.')">
-                        <img src="../../assets/img/insignias/Frame 97.png" alt="Programação - Mobile">
-                    </a>
-                    <h5>Programação - Mobile</h5>
-                </div>
-            
-                <div class="item marketing meus">
-                    <a href="#" onclick="openModal('Marketing - Mobile', 'Descrição sobre a insígnia de Marketing - Mobile.')">
-                        <img src="../../assets/img/insignias/Frame 97.png" alt="Marketing - Mobile">
-                    </a>
-                    <h5>Marketing - Mobile</h5>
-                </div>
-            
-                <div class="item design">
-                    <a href="#" onclick="openModal('Figma NV 3', 'Descrição sobre a insígnia de Figma NV 3.')">
-                        <img src="../../assets/img/insignias/figma-nl3.png" alt="Figma NV 3">
-                    </a>
-                    <h5>Figma NV 3</h5>
-                </div>
+            <div class="container_insignias" id="container_insignias">
+
             </div>
-            
+
             <!-- Modal -->
             <div id="insigniaModal" class="modal">
                 <div class="modal-content">
-                    <span class="close" onclick="closeModal()">&times;</span>
-                    <h2 id="modalTitle">Título da Insígnia</h2>
-                    <p id="modalDescription">Descrição da insígnia...</p>
+                    <span id="closeModal" class="close">&times;</span>
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                    <p>Nivel 1</p>
+                    <p id="modalNivel1"></p>
                 </div>
             </div>
-            
 
+
+        </div>
 
     </main>
 
