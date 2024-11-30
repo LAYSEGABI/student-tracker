@@ -1,0 +1,185 @@
+[
+    {
+      "nome": "Pietra Danilevicz",
+      "idade": 20,
+      "category": "pedra-branca",
+      "curso": "Design",
+      "unidade": "Pedra Branca",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQFb4SXcWZ0Q-w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1701753250762?e=1738195200&v=beta&t=3xQN2DCg2L75HUJittM-7c4TxbOmsO9XrYQjB23SGqs",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/joaosilva",
+        "github": "https://github.com/joaosilva",
+        "instagram": "https://www.instagram.com/joaosilva"
+      }
+    },
+    {
+      "nome": "Julho Cesar",
+      "idade": 22,
+      "category": "pedra-branca",
+      "curso": "Design",
+      "unidade": "Pedra branca",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQHIUAzANb-Qkg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1710941791325?e=1738195200&v=beta&t=SQ59uvN4o3gSC4TPHNQwxwDCgXK2FkADJmSB1zExQSw",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/mariaoliveira",
+        "behance": "https://www.behance.net/mariaoliveira",
+        "instagram": "https://www.instagram.com/mariaoliveira"
+      }
+    },
+    {
+      "nome": "Matheus Costa",
+      "idade": 24,
+      "category": "pedra-branca",
+      "curso": "Programação",
+      "unidade": "Pedra branca",
+      "image": "https://media.licdn.com/dms/image/v2/D4E03AQHVT_c40YAnrw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727204935568?e=1738195200&v=beta&t=MIUxSEq5RTSNblAGkaE4UX8ORmmMiiaZL9copAtpowk",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/carlosandrade",
+        "facebook": "https://www.facebook.com/carlosandrade",
+        "instagram": "https://www.instagram.com/carlosandrade"
+      }
+    },
+    {
+      "nome": "Pedro Gonçalves",
+      "idade": 20,
+      "category": "pedra-branca",
+      "curso": "Programação",
+      "unidade": "Pedra Branca",
+      "image": "https://media.licdn.com/dms/image/v2/D4D35AQGVA7sqhakJng/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1701773995156?e=1733551200&v=beta&t=Y-y9QNMTLJaTW0VN1zEgVPkmjKOjVo8jPPZ6CXmV-Js",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/anamartins",
+        "github": "https://github.com/anamartins",
+        "twitter": "https://twitter.com/anamartins"
+      }
+    },
+    {
+      "nome": "Layse lima",
+      "idade": 23,
+      "category": "pedra-branca",
+      "curso": "Programação",
+      "unidade": "Pedra branca",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQH7-dnJdXUwdQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718629670668?e=1738195200&v=beta&t=9vCKDPZI8T6J8EOIIJyDkUo4-PniYekMylXAN8_qvcA",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    },
+    {
+      "nome": "William P. Araujo",
+      "idade": 23,
+      "category": "sc-401",
+      "curso": "Programação",
+      "unidade": "SC 401",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQGJvHfAgWAw_g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718309927929?e=1738195200&v=beta&t=wVAneVWwnz--84cDwG7kqZDqFOlr5isrIM8nuCNsZBw",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    },
+    {
+      "nome": "Daphne Ribeiro",
+      "idade": 23,
+      "category": "sc-401",
+      "curso": "Design",
+      "unidade": "SC 401",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQGJyAfOAamKbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726968361057?e=1738195200&v=beta&t=4YQbKp9q1raGEybY9XgXI27gy1q3c6NPA4eAvJKtLEU",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    },
+    {
+      "nome": "Endy Emily",
+      "idade": 23,
+      "category": "sc-401",
+      "curso": "Programação",
+      "unidade": "SC 401",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQEsxhdjLC64jA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696604316940?e=1738195200&v=beta&t=_VN-oyOQdbxOHSPV-sPJ5UwErOI3-MjvRHx4P5LrqJ4",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    },
+    {
+      "nome": "Pedro Rocha",
+      "idade": 23,
+      "category": "sc-401",
+      "curso": "Programação",
+      "unidade": "SC 401",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQEu0oJWF8PJjw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683050485018?e=1738195200&v=beta&t=A_pNHFNcA3VXw3tEbMApEFkLAZ_oETVupYEyaM7sGnM",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    },
+    {
+      "nome": "Aline Silveira",
+      "idade": 23,
+      "category": "pedra-branca",
+      "curso": "Programação",
+      "unidade": "Pedra Branca",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQHnTrcAKh81aw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707447317242?e=1738195200&v=beta&t=0d2fwR4jiZ9XPDD4B2y-b8XAoHk7wFQCxuiov-NPEv0",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    },
+    {
+      "nome": "Alice Silveira",
+      "idade": 23,
+      "category": "sc-401",
+      "curso": "Programação",
+      "unidade": "SC 401",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQE4rgSVdSi_gQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1694712432265?e=1738195200&v=beta&t=E2YkifF2qZh0fw-kaW1b0FQv6EHZefn91TLj3EpASVc",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    },
+    {
+      "nome": "João Dário",
+      "idade": 23,
+      "category": "sc-401",
+      "curso": "Programação",
+      "unidade": "SC 401",
+      "image": "https://media.licdn.com/dms/image/v2/D4D35AQFxFRob6uBFHg/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1719446384362?e=1733551200&v=beta&t=6nUDvtZgFrk6QGbnIp-ykvG7owXerIWInFNnkswC1mA",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    },
+    {
+      "nome": "João Kuhn",
+      "idade": 23,
+      "category": "sc-401",
+      "curso": "Programação",
+      "unidade": "SC 401",
+      "image": "https://media.licdn.com/dms/image/v2/D4D03AQEDvnEwa0sKxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714059229153?e=1738195200&v=beta&t=h1q_QEbADkCaeA2bLfsa98s8ffR5lNQfu0YV6wp0fkw",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    },
+    {
+      "nome": "Ana Júlia",
+      "idade": 23,
+      "category": "pedra-branca",
+      "curso": "Programação",
+      "unidade": "Pedra Branca",
+      "image": "https://media.licdn.com/dms/image/v2/D4D35AQFWs3MU3LHrUQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1689766221486?e=1733551200&v=beta&t=Sg0pKI_Bx-nJT_WXNFS-XxnHr545FOCkqsHmt87_Eno",
+      "redes": {
+        "linkedin": "https://www.linkedin.com/in/pedrolima",
+        "instagram": "https://www.instagram.com/pedrolima",
+        "youtube": "https://www.youtube.com/@pedrolima"
+      }
+    }
+  ]
+  

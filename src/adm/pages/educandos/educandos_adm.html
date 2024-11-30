@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../assets_adm/img/educandos_icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../../../../global.css">
+    <link rel="stylesheet" href="educandos_adm.css">
+
+    <title>Educandos</title>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <button id="toggleButton"><img src="../../../assets/img/menu.svg" alt=""></button>
+            <h1>Tracker de Estudos</h1>
+        </div>
+        <div class="right">
+            <img class="notificacao" src="../../../assets/img/bell-solid 1.svg" alt="sino icon">
+            <img class="profile" src="../../../assets/img/foto-minha.png" alt="profile foto">
+        </div>
+
+    </header>
+    <main>
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="../home/home_adm.html"><img src="../../../assets/img/home-solid 1.svg" alt=""><span>Home</span></a>
+                    </li>
+                    <li><a href="educandos_adm.html"><img src="../../assets_adm/img/educandos_icon.svg"
+                                alt=""><span>Educandos</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+<div class="container">
+    
+            <div class="nav-educandos">
+                <div class="tabs">
+                    <div class="tabs">
+                        <button id="btn-all" class="tab filter-btn selected" data-category="all">Todos</button>
+                        <button id="btn-pedra-branca" class="tab filter-btn" data-category="pedra-branca">Pedra Branca</button>
+                        <button id="btn-sc-401" class="tab filter-btn"
+                            data-category="sc-401">SC 401</button>
+
+                            
+                    </div>
+    
+                </div>
+            </div>
+            
+            <div class="container_educandos" id="container_educandos">
+    
+            </div>
+            
+    
+              <!-- Modal -->
+              <div id="educandoModal" class="modal">
+                <div class="modal-content">
+                    <span id="closeModal" class="close">&times;</span>
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                    <p>Em breve...</p>
+                    <p id="modalNivel1"></p>
+                </div>
+            </div>
+</div>
+    </main>
+
+
+
+
+    <script src="../../../../main.js"></script>
+    <script src="educandos_adm.js"></script>
+</body>
+</html>
